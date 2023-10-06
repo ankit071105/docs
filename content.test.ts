@@ -150,3 +150,7 @@ describe.each(glob.sync('content/**/*.md'))('%s', (file) => {
     testOptionalStringArray('Tags', attributes.Tags);
   });
 });
+function expect(arg0: string) {
+  throw new Error('Function not implemented.');
+}
+
